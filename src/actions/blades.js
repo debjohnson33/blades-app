@@ -11,7 +11,7 @@ const db = new sqlite3.Database('dev.sqlite3', (err) => {
 
 export const bladesFetchSuccess = blades => {
 	return {
-		type: 'BLADES_FETCH_DATA_SUCCESS',
+		type: 'BLADES_FETCH_SUCCESS',
 		blades
 	}
 }
